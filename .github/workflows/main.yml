@@ -15,12 +15,6 @@ jobs:
 
       - name: Install Cypress
         run: npx cypress install
-
-      - name: Start Application
-        run: npm start &
-        
-      - name: Wait for App
-        run: npx wait-on http://localhost:3000
         
       - name: Cypress run
-        uses: cypress-io/github-action@v7
+        run: npx cypress run
