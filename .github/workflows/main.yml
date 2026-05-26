@@ -12,9 +12,6 @@ jobs:
       # and run all Cypress tests
       - name: Install dependencies
         run: npm ci
-
-      - name: Install Cypress
-        run: npx cypress install
         
       - name: Cypress run
         run: npx cypress run
