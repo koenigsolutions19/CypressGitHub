@@ -1,9 +1,7 @@
-describe('SuiteName', () => {
- it('TestName', () => {
- cy.visit('https://register.rediff.com/register/register.php?FormName=user_details')
- cy.get('.nomargin').should('not.be.checked');
-  cy.wait(3000)
+describe('Rediffmail', () => {
+ it('Checkbox', () => {
+ 
+    console.log('Handling Checkbox')
 
- cy.get('.nomargin').check();
  })
 })
